@@ -5,17 +5,10 @@
 body{
     background-color: #444440;
     color: #fff;
-    font-family: "Oswald", sans-serif;
     margin: 0;
     padding: 0;
-}
+    text-align: center;
 
-/* IMAGES */
-
-.logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* NAVBAR  */
@@ -36,14 +29,51 @@ body{
 .nav a {
     text-decoration: none;
     color: #fff;
-    width: 100px;
+    width: 150px;
     display: block;
-    padding: 15px;
+    font-family: "Oswald", sans-serif;
+    padding: 30px;
     font-size: 17px;
     transition: 0.6s;
+    font-weight: 200;
+    margin-top: 150px;
 }
 
 .nav a:hover {
     background-color: #a47764;
     color: #444440;
 }
+
+/* IMAGES */
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+  /* SOCIAL ICONS  */
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 100px 0;
+    font-size: 30px;
+    line-height: 7px;
+    text-align: center;
+    color: #fff;
+    transition: 0.6s;
+    margin-top: 50px;
+}
+
+.social-links li a i:hover {
+    color: #a47764;
+}
+
+/* REPONSIV  */
+@media screen and (max-width: 600px) {
+  .nav a {
+    float: none;
+    display: block;
+  }
