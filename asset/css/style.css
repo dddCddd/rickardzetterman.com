@@ -13,7 +13,8 @@ body{
 }
 
 .bg-image {
-    background-repeat: ;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 /* STYLE  */
@@ -118,8 +119,8 @@ h1, h2, h3, h4, h5, h6, p {
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 100px 0;
-    font-size: 30px;
+    padding: 15px -20px;
+    font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: #fff;
