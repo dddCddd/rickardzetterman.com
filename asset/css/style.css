@@ -88,6 +88,19 @@ footer {
 
 }
 
+.cv-pdf i {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding-left: 5px;
+    transition: 0.4s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #a47764;
+}
+
+
 /* REPONSIV  */
 @media screen and (max-width: 600px) {
   .nav a {
