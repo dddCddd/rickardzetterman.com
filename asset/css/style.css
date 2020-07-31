@@ -8,8 +8,40 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: "Oswald" sans-serif;
 
 }
+
+/* STYLE  */
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+
+/* YOUTUBE VIDEOS  */
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 
 /* NAVBAR  */
 
@@ -32,11 +64,11 @@ body{
     width: 150px;
     display: block;
     font-family: "Oswald", sans-serif;
-    padding: 30px;
+    padding: 15px;
     font-size: 17px;
     transition: 0.6s;
     font-weight: 400;
-    margin-top: 150px;
+    margin-top: 0;
 }
 
 .nav a:hover {
@@ -50,6 +82,30 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* BUTTON */
+
+.button {
+  border: solid 1px;
+  border-bottom-color: #a47764;
+  background-color: #444440;
+  color:#a47764;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+}
+
+.button:hover {
+    background-color: #a47764;
+    color: #fff;
+    border-bottom-color: #fff;
+
 }
 
 
@@ -81,7 +137,7 @@ footer {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
     width: 1000px;
-    min-height: 10px;
+    min-height: 120px;
     margin: 0;
     text-align: center;
     padding: 5px;
@@ -99,6 +155,8 @@ footer {
 .cv-pdf i:hover {
     color: #a47764;
 }
+
+
 
 
 /* REPONSIV  */
