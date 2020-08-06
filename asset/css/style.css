@@ -162,6 +162,43 @@ footer {
 }
 
 
+/* CONTACT FORM  */
+
+.contact-heading {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #444440;
+    background-color: #a47764;
+}
+
+button:hover [type="submit"] {
+    color: #fff;
+    background-color: #444440;
+}
+
+/* change media */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
 
 
 /* REPONSIV  */
@@ -170,3 +207,20 @@ footer {
     float: none;
     display: block;
   }
+
+  /* Skills */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 200;
+    padding: 5px 100px 2px 10px;
+    color: #444440;
+    background-color: rgba(25, 25, 25, 0.2)
+}
